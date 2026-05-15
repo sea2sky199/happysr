@@ -57,3 +57,20 @@ CREATE TABLE IF NOT EXISTS sr_calendar_events (
   is_public BOOLEAN DEFAULT TRUE,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE IF NOT EXISTS sr_orgs (
+  id          INT AUTO_INCREMENT PRIMARY KEY,
+  name        VARCHAR(200) NOT NULL,
+  category    VARCHAR(50),
+  description TEXT,
+  website_url VARCHAR(500),
+  phone       VARCHAR(20),
+  email       VARCHAR(255),
+  address     VARCHAR(255),
+  city        VARCHAR(100),
+  state       VARCHAR(50),
+  zipcode     VARCHAR(10),
+  is_active   BOOLEAN NOT NULL DEFAULT TRUE,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);

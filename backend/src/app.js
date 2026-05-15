@@ -14,6 +14,7 @@ app.use('/api/v1/activities',  require('./routes/activities.routes'));
 app.use('/api/v1/expenses',    require('./routes/expenses.routes'));
 app.use('/api/v1/investments', require('./routes/investments.routes'));
 app.use('/api/v1/reports',     require('./routes/reports.routes'));
+app.use('/api/v1/orgs',        require('./routes/orgs.routes'));
 
 app.use((err, req, res, next) => {
   console.error(err);
