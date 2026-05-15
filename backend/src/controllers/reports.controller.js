@@ -7,7 +7,7 @@ exports.expenseSummary = async (req, res) => {
       SELECT category,
              SUM(amount) AS total,
              DATE_FORMAT(expense_date, '%Y-%m') AS month
-      FROM expenses
+      FROM sr_expenses
       WHERE user_id = ?
     `;
     const params = [req.user.id];

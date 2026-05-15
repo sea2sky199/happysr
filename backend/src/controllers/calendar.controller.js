@@ -6,7 +6,7 @@ exports.getEvents = async (req, res) => {
       SELECT id, title, description, location,
              DATE(event_date) AS event_date, category,
              'activity' AS source
-      FROM activities
+      FROM sr_activities
       WHERE event_date >= CURDATE()
       ORDER BY event_date ASC
     `);
@@ -15,7 +15,7 @@ exports.getEvents = async (req, res) => {
       SELECT id, title, description, NULL AS location,
              event_date, NULL AS category,
              'event' AS source
-      FROM calendar_events
+      FROM sr_calendar_events
       WHERE event_date >= CURDATE() AND is_public = TRUE
       ORDER BY event_date ASC
     `);
@@ -38,7 +38,7 @@ exports.createEvent = async (req, res) => {
   }
   try {
     const [result] = await pool.query(
-      'INSERT INTO calendar_events (title, description, event_date, is_public) VALUES (?, ?, ?, TRUE)',
+      'INSERT INTO sr_calendar_events (title, description, event_date, is_public) VALUES (?, ?, ?, TRUE)',
       [title, description || null, event_date]
     );
     res.status(201).json({ success: true, data: { id: result.insertId, title, event_date } });
@@ -49,7 +49,7 @@ exports.createEvent = async (req, res) => {
 
 exports.removeEvent = async (req, res) => {
   try {
-    const [result] = await pool.query('DELETE FROM calendar_events WHERE id = ?', [req.params.id]);
+    const [result] = await pool.query('DELETE FROM sr_calendar_events WHERE id = ?', [req.params.id]);
     if (!result.affectedRows) return res.status(404).json({ success: false, error: 'Not found' });
     res.json({ success: true });
   } catch {

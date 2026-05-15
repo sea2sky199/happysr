@@ -3,7 +3,7 @@ const pool = require('../config/database');
 exports.getAll = async (req, res) => {
   try {
     const [rows] = await pool.query(
-      'SELECT * FROM investments WHERE user_id=? ORDER BY as_of_date DESC',
+      'SELECT * FROM sr_investments WHERE user_id=? ORDER BY as_of_date DESC',
       [req.user.id]
     );
     res.json({ success: true, data: rows });
@@ -16,7 +16,7 @@ exports.create = async (req, res) => {
   const { type, institution, amount, notes, as_of_date } = req.body;
   try {
     const [result] = await pool.query(
-      'INSERT INTO investments (user_id, type, institution, amount, notes, as_of_date) VALUES (?,?,?,?,?,?)',
+      'INSERT INTO sr_investments (user_id, type, institution, amount, notes, as_of_date) VALUES (?,?,?,?,?,?)',
       [req.user.id, type, institution, amount, notes, as_of_date]
     );
     res.status(201).json({ success: true, data: { id: result.insertId } });
@@ -28,7 +28,7 @@ exports.create = async (req, res) => {
 exports.remove = async (req, res) => {
   try {
     const [result] = await pool.query(
-      'DELETE FROM investments WHERE id=? AND user_id=?',
+      'DELETE FROM sr_investments WHERE id=? AND user_id=?',
       [req.params.id, req.user.id]
     );
     if (!result.affectedRows) return res.status(404).json({ success: false, error: 'Not found' });

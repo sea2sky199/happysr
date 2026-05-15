@@ -12,12 +12,12 @@ exports.register = async (req, res) => {
 
   const { email, password, name } = req.body;
   try {
-    const [existing] = await pool.query('SELECT id FROM users WHERE email = ?', [email]);
+    const [existing] = await pool.query('SELECT id FROM sr_users WHERE email = ?', [email]);
     if (existing.length) return res.status(409).json({ success: false, error: 'Email already registered' });
 
     const hash = await bcrypt.hash(password, 12);
     const [result] = await pool.query(
-      'INSERT INTO users (email, password_hash, name) VALUES (?, ?, ?)',
+      'INSERT INTO sr_users (email, password_hash, name) VALUES (?, ?, ?)',
       [email, hash, name || null]
     );
     const user = { id: result.insertId, role: 'user', email, name };
@@ -34,7 +34,7 @@ exports.login = async (req, res) => {
   const { email, password } = req.body;
   try {
     const [rows] = await pool.query(
-      'SELECT id, email, password_hash, role, name, gender, age, zipcode, language_pref FROM users WHERE email = ?',
+      'SELECT id, email, password_hash, role, name, gender, age, zipcode, language_pref FROM sr_users WHERE email = ?',
       [email]
     );
     if (!rows.length) return res.status(401).json({ success: false, error: 'Invalid credentials' });
