@@ -12,6 +12,7 @@
     "learning": "學習",
     "reports": "報告",
     "dashboard": "我的主頁",
+    "profile": "我的資料",
     "admin": "管理",
     "login": "登入",
     "logout": "登出",
@@ -43,7 +44,24 @@
     "zipcode": "郵遞區號",
     "language": "偏好語言",
     "save": "儲存變更",
-    "saved": "資料已儲存！"
+    "saved": "資料已儲存！",
+    "accountInfo": "帳戶資訊",
+    "email": "電子郵件",
+    "role": "帳戶類型",
+    "memberSince": "加入日期",
+    "personalInfo": "個人資訊",
+    "changePassword": "變更密碼",
+    "currentPassword": "目前密碼",
+    "newPassword": "新密碼",
+    "confirmPassword": "確認新密碼",
+    "passwordChanged": "密碼變更成功！",
+    "passwordMismatch": "兩次輸入的新密碼不一致。",
+    "genderOptions": {
+      "male": "男",
+      "female": "女",
+      "other": "其他",
+      "prefer_not_to_say": "不願透露"
+    }
   },
   "expenses": {
     "title": "支出追蹤",

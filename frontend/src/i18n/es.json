@@ -12,6 +12,7 @@
     "learning": "Aprendizaje",
     "reports": "Informes",
     "dashboard": "Mi Panel",
+    "profile": "Mi Perfil",
     "admin": "Administración",
     "login": "Iniciar Sesión",
     "logout": "Cerrar Sesión",
@@ -43,7 +44,24 @@
     "zipcode": "Código Postal",
     "language": "Idioma Preferido",
     "save": "Guardar Cambios",
-    "saved": "¡Perfil guardado!"
+    "saved": "¡Perfil guardado!",
+    "accountInfo": "Información de Cuenta",
+    "email": "Correo Electrónico",
+    "role": "Tipo de Cuenta",
+    "memberSince": "Miembro Desde",
+    "personalInfo": "Información Personal",
+    "changePassword": "Cambiar Contraseña",
+    "currentPassword": "Contraseña Actual",
+    "newPassword": "Nueva Contraseña",
+    "confirmPassword": "Confirmar Nueva Contraseña",
+    "passwordChanged": "¡Contraseña cambiada exitosamente!",
+    "passwordMismatch": "Las nuevas contraseñas no coinciden.",
+    "genderOptions": {
+      "male": "Masculino",
+      "female": "Femenino",
+      "other": "Otro",
+      "prefer_not_to_say": "Prefiero no decir"
+    }
   },
   "expenses": {
     "title": "Control de Gastos",

@@ -12,6 +12,7 @@
     "learning": "学习",
     "reports": "报告",
     "dashboard": "我的主页",
+    "profile": "我的资料",
     "admin": "管理",
     "login": "登录",
     "logout": "退出",
@@ -43,7 +44,24 @@
     "zipcode": "邮政编码",
     "language": "首选语言",
     "save": "保存更改",
-    "saved": "资料已保存！"
+    "saved": "资料已保存！",
+    "accountInfo": "账户信息",
+    "email": "电子邮件",
+    "role": "账户类型",
+    "memberSince": "注册日期",
+    "personalInfo": "个人信息",
+    "changePassword": "修改密码",
+    "currentPassword": "当前密码",
+    "newPassword": "新密码",
+    "confirmPassword": "确认新密码",
+    "passwordChanged": "密码修改成功！",
+    "passwordMismatch": "两次输入的新密码不一致。",
+    "genderOptions": {
+      "male": "男",
+      "female": "女",
+      "other": "其他",
+      "prefer_not_to_say": "不愿透露"
+    }
   },
   "expenses": {
     "title": "开支追踪",

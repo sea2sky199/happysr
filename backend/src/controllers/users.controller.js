@@ -41,6 +41,28 @@ exports.getAllUsers = async (req, res) => {
   }
 };
 
+exports.changePassword = async (req, res) => {
+  const { currentPassword, newPassword } = req.body;
+  if (!currentPassword || !newPassword) {
+    return res.status(400).json({ success: false, error: 'Current and new password are required' });
+  }
+  if (newPassword.length < 6) {
+    return res.status(400).json({ success: false, error: 'New password must be at least 6 characters' });
+  }
+  try {
+    const bcrypt = require('bcryptjs');
+    const [rows] = await pool.query('SELECT password_hash FROM sr_users WHERE id=?', [req.user.id]);
+    if (!rows.length) return res.status(404).json({ success: false, error: 'User not found' });
+    const match = await bcrypt.compare(currentPassword, rows[0].password_hash);
+    if (!match) return res.status(401).json({ success: false, error: 'Current password is incorrect' });
+    const hash = await bcrypt.hash(newPassword, 12);
+    await pool.query('UPDATE sr_users SET password_hash=? WHERE id=?', [hash, req.user.id]);
+    res.json({ success: true });
+  } catch {
+    res.status(500).json({ success: false, error: 'Server error' });
+  }
+};
+
 exports.updateUserRole = async (req, res) => {
   const { role } = req.body;
   if (!['user', 'admin'].includes(role)) {

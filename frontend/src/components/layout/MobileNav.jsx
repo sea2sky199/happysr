@@ -59,7 +59,7 @@ export default function MobileNav() {
         {isAuthenticated ? (
           <>
             <NavItem to="/expenses"  label={t('nav.expenses')}  icon="💰" />
-            <NavItem to="/dashboard" label={t('nav.dashboard')} icon="👤" />
+            <NavItem to="/profile" label={t('nav.profile')} icon="👤" />
           </>
         ) : (
           <NavItem to="/login" label={t('nav.login')} icon="🔑" />

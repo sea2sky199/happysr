@@ -12,6 +12,7 @@
     "learning": "Learning",
     "reports": "Reports",
     "dashboard": "My Dashboard",
+    "profile": "My Profile",
     "admin": "Admin",
     "login": "Sign In",
     "logout": "Sign Out",
@@ -43,7 +44,24 @@
     "zipcode": "Zip Code",
     "language": "Preferred Language",
     "save": "Save Changes",
-    "saved": "Profile saved!"
+    "saved": "Profile saved!",
+    "accountInfo": "Account Information",
+    "email": "Email Address",
+    "role": "Account Type",
+    "memberSince": "Member Since",
+    "personalInfo": "Personal Information",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "passwordChanged": "Password changed successfully!",
+    "passwordMismatch": "New passwords do not match.",
+    "genderOptions": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "prefer_not_to_say": "Prefer not to say"
+    }
   },
   "expenses": {
     "title": "Expense Tracker",

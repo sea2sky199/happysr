@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import Dashboard from './pages/Dashboard';
+import Profile from './pages/Profile';
 import Health from './pages/Health';
 import Activities from './pages/Activities';
 import Expenses from './pages/Expenses';
@@ -47,6 +48,7 @@ export default function App() {
             <Route path="/technology" element={<Technology />} />
             <Route path="/learning" element={<Learning />} />
             <Route path="/dashboard" element={<RequireAuth><Dashboard /></RequireAuth>} />
+            <Route path="/profile" element={<RequireAuth><Profile /></RequireAuth>} />
             <Route path="/expenses" element={<RequireAuth><Expenses /></RequireAuth>} />
             <Route path="/investments" element={<RequireAuth><Investments /></RequireAuth>} />
             <Route path="/reports" element={<RequireAuth><Reports /></RequireAuth>} />

@@ -12,6 +12,7 @@
     "learning": "학습",
     "reports": "보고서",
     "dashboard": "내 대시보드",
+    "profile": "내 프로필",
     "admin": "관리자",
     "login": "로그인",
     "logout": "로그아웃",
@@ -43,7 +44,24 @@
     "zipcode": "우편번호",
     "language": "기본 언어",
     "save": "변경사항 저장",
-    "saved": "프로필이 저장되었습니다!"
+    "saved": "프로필이 저장되었습니다!",
+    "accountInfo": "계정 정보",
+    "email": "이메일 주소",
+    "role": "계정 유형",
+    "memberSince": "가입일",
+    "personalInfo": "개인 정보",
+    "changePassword": "비밀번호 변경",
+    "currentPassword": "현재 비밀번호",
+    "newPassword": "새 비밀번호",
+    "confirmPassword": "새 비밀번호 확인",
+    "passwordChanged": "비밀번호가 성공적으로 변경되었습니다!",
+    "passwordMismatch": "새 비밀번호가 일치하지 않습니다.",
+    "genderOptions": {
+      "male": "남성",
+      "female": "여성",
+      "other": "기타",
+      "prefer_not_to_say": "공개 안 함"
+    }
   },
   "expenses": {
     "title": "지출 관리",

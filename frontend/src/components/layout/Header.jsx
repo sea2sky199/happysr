@@ -48,7 +48,7 @@ export default function Header() {
 
           {isAuthenticated ? (
             <div className="flex items-center gap-3">
-              <Link to="/dashboard" className="hidden md:block text-sm text-blue-100 hover:text-white font-medium truncate max-w-[140px]">
+              <Link to="/profile" className="hidden md:block text-sm text-blue-100 hover:text-white font-medium truncate max-w-[140px]">
                 {user?.name || user?.email}
               </Link>
               <button

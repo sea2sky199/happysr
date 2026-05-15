@@ -12,6 +12,7 @@
     "learning": "Học tập",
     "reports": "Báo cáo",
     "dashboard": "Trang của tôi",
+    "profile": "Hồ Sơ",
     "admin": "Quản trị",
     "login": "Đăng nhập",
     "logout": "Đăng xuất",
@@ -36,14 +37,31 @@
     "haveAccount": "Đã có tài khoản?"
   },
   "profile": {
-    "title": "Hồ sơ của tôi",
+    "title": "Hồ Sơ Của Tôi",
     "name": "Họ và tên",
     "gender": "Giới tính",
     "age": "Tuổi",
     "zipcode": "Mã bưu chính",
     "language": "Ngôn ngữ ưa thích",
     "save": "Lưu thay đổi",
-    "saved": "Đã lưu hồ sơ!"
+    "saved": "Đã lưu hồ sơ!",
+    "accountInfo": "Thông Tin Tài Khoản",
+    "email": "Địa chỉ email",
+    "role": "Loại tài khoản",
+    "memberSince": "Thành viên từ",
+    "personalInfo": "Thông Tin Cá Nhân",
+    "changePassword": "Đổi Mật Khẩu",
+    "currentPassword": "Mật khẩu hiện tại",
+    "newPassword": "Mật khẩu mới",
+    "confirmPassword": "Xác nhận mật khẩu mới",
+    "passwordChanged": "Đổi mật khẩu thành công!",
+    "passwordMismatch": "Mật khẩu mới không khớp.",
+    "genderOptions": {
+      "male": "Nam",
+      "female": "Nữ",
+      "other": "Khác",
+      "prefer_not_to_say": "Không muốn tiết lộ"
+    }
   },
   "expenses": {
     "title": "Theo dõi chi tiêu",
