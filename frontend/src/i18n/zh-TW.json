@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "首頁",
+    "health": "健康",
+    "activities": "活動",
+    "expenses": "支出",
+    "investments": "投資",
+    "travel": "旅遊",
+    "calendar": "行事曆",
+    "finance": "理財",
+    "technology": "科技",
+    "learning": "學習",
+    "reports": "報告",
+    "dashboard": "我的主頁",
+    "admin": "管理",
+    "login": "登入",
+    "logout": "登出",
+    "register": "註冊",
+    "more": "More"
+  },
+  "home": {
+    "welcome": "歡迎來到 HappySR",
+    "subtitle": "您的完整樂齡資源中心",
+    "latestNews": "最新新聞與公告",
+    "upcomingEvents": "即將到來的活動"
+  },
+  "auth": {
+    "email": "電子郵件",
+    "password": "密碼",
+    "name": "姓名",
+    "loginTitle": "登入您的帳戶",
+    "registerTitle": "建立帳戶",
+    "loginBtn": "登入",
+    "registerBtn": "建立帳戶",
+    "noAccount": "還沒有帳戶？",
+    "haveAccount": "已有帳戶？"
+  },
+  "profile": {
+    "title": "我的資料",
+    "name": "姓名",
+    "gender": "性別",
+    "age": "年齡",
+    "zipcode": "郵遞區號",
+    "language": "偏好語言",
+    "save": "儲存變更",
+    "saved": "資料已儲存！"
+  },
+  "expenses": {
+    "title": "支出追蹤",
+    "amount": "金額（$）",
+    "category": "類別",
+    "description": "說明",
+    "date": "日期",
+    "add": "新增支出",
+    "delete": "刪除",
+    "categories": {
+      "food": "餐飲",
+      "medical": "醫療",
+      "utilities": "水電費",
+      "transportation": "交通",
+      "entertainment": "娛樂",
+      "other": "其他"
+    }
+  },
+  "investments": {
+    "title": "投資追蹤",
+    "type": "投資類型",
+    "institution": "機構",
+    "amount": "價值（$）",
+    "notes": "備註",
+    "asOfDate": "截至日期",
+    "add": "新增投資",
+    "delete": "刪除"
+  },
+  "activities": {
+    "title": "社區活動",
+    "all": "全部類別",
+    "noEvents": "目前沒有即將到來的活動。",
+    "add": "新增活動",
+    "location": "地點",
+    "date": "日期與時間"
+  },
+  "reports": {
+    "title": "支出報告",
+    "from": "從",
+    "to": "到",
+    "filter": "篩選",
+    "category": "類別",
+    "total": "合計",
+    "month": "月份",
+    "noData": "所選期間內找不到支出資料。"
+  },
+  "calendar": {
+    "title": "活動行事曆",
+    "subtitle": "瀏覽即將舉行的社區活動和重要日期",
+    "upcoming": "即將到來的活動",
+    "noEvents": "當天沒有活動。",
+    "noUpcoming": "暫無即將到來的活動。",
+    "activityLegend": "社區活動",
+    "eventLegend": "重要日期"
+  },
+  "health": {
+    "title": "健康資源",
+    "subtitle": "為樂齡人士提供重要的健康資訊和資源"
+  },
+  "finance": {
+    "title": "理財與退休",
+    "subtitle": "為樂齡人士提供財務規劃、社會安全和退休資源"
+  },
+  "technology": {
+    "title": "樂齡科技指南",
+    "subtitle": "幫助您保持聯繫並安全上網的指南、技巧和工具"
+  },
+  "learning": {
+    "title": "學習與教育",
+    "subtitle": "為樂齡人士提供線上課程、圖書館和終身學習資源"
+  },
+  "travel": {
+    "title": "樂齡旅遊",
+    "subtitle": "專為樂齡人士設計的旅遊提示、優惠和資源"
+  },
+  "admin": {
+    "title": "使用者管理",
+    "email": "電子郵件",
+    "name": "姓名",
+    "role": "角色",
+    "joined": "註冊日期",
+    "age": "年齡"
+  },
+  "common": {
+    "loading": "載入中...",
+    "error": "發生錯誤，請重試。",
+    "save": "儲存",
+    "cancel": "取消",
+    "delete": "刪除",
+    "edit": "編輯",
+    "close": "關閉"
+  }
+}

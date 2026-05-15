@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "홈",
+    "health": "건강",
+    "activities": "활동",
+    "expenses": "지출",
+    "investments": "투자",
+    "travel": "여행",
+    "calendar": "일정",
+    "finance": "재정",
+    "technology": "기술",
+    "learning": "학습",
+    "reports": "보고서",
+    "dashboard": "내 대시보드",
+    "admin": "관리자",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "register": "회원가입",
+    "more": "More"
+  },
+  "home": {
+    "welcome": "HappySR에 오신 것을 환영합니다",
+    "subtitle": "시니어를 위한 종합 리소스 센터",
+    "latestNews": "최신 뉴스 및 공지사항",
+    "upcomingEvents": "예정된 이벤트"
+  },
+  "auth": {
+    "email": "이메일 주소",
+    "password": "비밀번호",
+    "name": "이름",
+    "loginTitle": "계정에 로그인",
+    "registerTitle": "계정 만들기",
+    "loginBtn": "로그인",
+    "registerBtn": "계정 만들기",
+    "noAccount": "계정이 없으신가요?",
+    "haveAccount": "이미 계정이 있으신가요?"
+  },
+  "profile": {
+    "title": "내 프로필",
+    "name": "이름",
+    "gender": "성별",
+    "age": "나이",
+    "zipcode": "우편번호",
+    "language": "기본 언어",
+    "save": "변경사항 저장",
+    "saved": "프로필이 저장되었습니다!"
+  },
+  "expenses": {
+    "title": "지출 관리",
+    "amount": "금액 ($)",
+    "category": "카테고리",
+    "description": "설명",
+    "date": "날짜",
+    "add": "지출 추가",
+    "delete": "삭제",
+    "categories": {
+      "food": "식비",
+      "medical": "의료비",
+      "utilities": "공과금",
+      "transportation": "교통비",
+      "entertainment": "오락",
+      "other": "기타"
+    }
+  },
+  "investments": {
+    "title": "투자 관리",
+    "type": "투자 유형",
+    "institution": "기관",
+    "amount": "가치 ($)",
+    "notes": "메모",
+    "asOfDate": "기준일",
+    "add": "투자 추가",
+    "delete": "삭제"
+  },
+  "activities": {
+    "title": "커뮤니티 활동",
+    "all": "전체 카테고리",
+    "noEvents": "예정된 활동이 없습니다.",
+    "add": "활동 추가",
+    "location": "장소",
+    "date": "날짜 및 시간"
+  },
+  "reports": {
+    "title": "지출 보고서",
+    "from": "시작일",
+    "to": "종료일",
+    "filter": "필터",
+    "category": "카테고리",
+    "total": "합계",
+    "month": "월",
+    "noData": "선택한 기간의 지출 데이터가 없습니다."
+  },
+  "calendar": {
+    "title": "이벤트 캘린더",
+    "subtitle": "다가오는 커뮤니티 행사와 중요한 날짜를 확인하세요",
+    "upcoming": "예정된 이벤트",
+    "noEvents": "이 날에는 이벤트가 없습니다.",
+    "noUpcoming": "예정된 이벤트가 없습니다.",
+    "activityLegend": "커뮤니티 활동",
+    "eventLegend": "중요한 날짜"
+  },
+  "health": {
+    "title": "건강 리소스",
+    "subtitle": "시니어를 위한 중요한 건강 정보 및 리소스"
+  },
+  "finance": {
+    "title": "재정 & 은퇴",
+    "subtitle": "시니어를 위한 재정 계획, 사회보장 및 은퇴 리소스"
+  },
+  "technology": {
+    "title": "시니어를 위한 기술",
+    "subtitle": "온라인에서 연결을 유지하고 안전하게 지내기 위한 가이드와 팁"
+  },
+  "learning": {
+    "title": "학습 & 교육",
+    "subtitle": "시니어를 위한 온라인 강좌, 도서관 및 평생 학습 리소스"
+  },
+  "travel": {
+    "title": "시니어 여행",
+    "subtitle": "시니어를 위한 여행 팁, 할인 및 리소스"
+  },
+  "admin": {
+    "title": "사용자 관리",
+    "email": "이메일",
+    "name": "이름",
+    "role": "역할",
+    "joined": "가입일",
+    "age": "나이"
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다. 다시 시도해 주세요.",
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "편집",
+    "close": "닫기"
+  }
+}

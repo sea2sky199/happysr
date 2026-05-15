@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "health": "Salud",
+    "activities": "Actividades",
+    "expenses": "Gastos",
+    "investments": "Inversiones",
+    "travel": "Viajes",
+    "calendar": "Calendario",
+    "finance": "Finanzas",
+    "technology": "Tecnología",
+    "learning": "Aprendizaje",
+    "reports": "Informes",
+    "dashboard": "Mi Panel",
+    "admin": "Administración",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión",
+    "register": "Registrarse",
+    "more": "More"
+  },
+  "home": {
+    "welcome": "Bienvenido a HappySR",
+    "subtitle": "Su centro de recursos completo para mayores",
+    "latestNews": "Últimas Noticias y Anuncios",
+    "upcomingEvents": "Próximos Eventos"
+  },
+  "auth": {
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "name": "Nombre Completo",
+    "loginTitle": "Iniciar Sesión",
+    "registerTitle": "Crear Su Cuenta",
+    "loginBtn": "Iniciar Sesión",
+    "registerBtn": "Crear Cuenta",
+    "noAccount": "¿No tiene una cuenta?",
+    "haveAccount": "¿Ya tiene una cuenta?"
+  },
+  "profile": {
+    "title": "Mi Perfil",
+    "name": "Nombre Completo",
+    "gender": "Género",
+    "age": "Edad",
+    "zipcode": "Código Postal",
+    "language": "Idioma Preferido",
+    "save": "Guardar Cambios",
+    "saved": "¡Perfil guardado!"
+  },
+  "expenses": {
+    "title": "Control de Gastos",
+    "amount": "Monto ($)",
+    "category": "Categoría",
+    "description": "Descripción",
+    "date": "Fecha",
+    "add": "Agregar Gasto",
+    "delete": "Eliminar",
+    "categories": {
+      "food": "Comida y Restaurantes",
+      "medical": "Médico",
+      "utilities": "Servicios",
+      "transportation": "Transporte",
+      "entertainment": "Entretenimiento",
+      "other": "Otro"
+    }
+  },
+  "investments": {
+    "title": "Control de Inversiones",
+    "type": "Tipo de Inversión",
+    "institution": "Institución",
+    "amount": "Valor ($)",
+    "notes": "Notas",
+    "asOfDate": "Fecha de Referencia",
+    "add": "Agregar Inversión",
+    "delete": "Eliminar"
+  },
+  "activities": {
+    "title": "Actividades Comunitarias",
+    "all": "Todas las Categorías",
+    "noEvents": "No se encontraron actividades próximas.",
+    "add": "Agregar Actividad",
+    "location": "Lugar",
+    "date": "Fecha y Hora"
+  },
+  "reports": {
+    "title": "Informes de Gastos",
+    "from": "Desde",
+    "to": "Hasta",
+    "filter": "Filtrar",
+    "category": "Categoría",
+    "total": "Total",
+    "month": "Mes",
+    "noData": "No se encontraron datos para el período seleccionado."
+  },
+  "calendar": {
+    "title": "Calendario de Eventos",
+    "subtitle": "Consulte los próximos eventos comunitarios y fechas importantes",
+    "upcoming": "Próximos Eventos",
+    "noEvents": "No hay eventos este día.",
+    "noUpcoming": "No hay próximos eventos.",
+    "activityLegend": "Actividad Comunitaria",
+    "eventLegend": "Fecha Importante"
+  },
+  "health": {
+    "title": "Recursos de Salud",
+    "subtitle": "Información y recursos de salud importantes para mayores"
+  },
+  "finance": {
+    "title": "Finanzas y Jubilación",
+    "subtitle": "Planificación financiera, Seguro Social y recursos de jubilación para mayores"
+  },
+  "technology": {
+    "title": "Tecnología para Mayores",
+    "subtitle": "Guías, consejos y herramientas para mantenerse conectado y seguro en línea"
+  },
+  "learning": {
+    "title": "Aprendizaje y Educación",
+    "subtitle": "Cursos en línea, bibliotecas y recursos de aprendizaje permanente para mayores"
+  },
+  "travel": {
+    "title": "Viajes para Mayores",
+    "subtitle": "Consejos, ofertas y recursos de viaje diseñados para mayores"
+  },
+  "admin": {
+    "title": "Gestión de Usuarios",
+    "email": "Correo",
+    "name": "Nombre",
+    "role": "Rol",
+    "joined": "Registrado",
+    "age": "Edad"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal. Por favor intente de nuevo.",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar"
+  }
+}

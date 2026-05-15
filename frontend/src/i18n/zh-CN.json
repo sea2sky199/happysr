@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "首页",
+    "health": "健康",
+    "activities": "活动",
+    "expenses": "开支",
+    "investments": "投资",
+    "travel": "旅游",
+    "calendar": "日历",
+    "finance": "财务",
+    "technology": "科技",
+    "learning": "学习",
+    "reports": "报告",
+    "dashboard": "我的主页",
+    "admin": "管理",
+    "login": "登录",
+    "logout": "退出",
+    "register": "注册",
+    "more": "More"
+  },
+  "home": {
+    "welcome": "欢迎来到 HappySR",
+    "subtitle": "您的完整老年人资源中心",
+    "latestNews": "最新新闻与公告",
+    "upcomingEvents": "即将到来的活动"
+  },
+  "auth": {
+    "email": "电子邮件",
+    "password": "密码",
+    "name": "姓名",
+    "loginTitle": "登录您的账户",
+    "registerTitle": "创建账户",
+    "loginBtn": "登录",
+    "registerBtn": "创建账户",
+    "noAccount": "还没有账户？",
+    "haveAccount": "已有账户？"
+  },
+  "profile": {
+    "title": "我的资料",
+    "name": "姓名",
+    "gender": "性别",
+    "age": "年龄",
+    "zipcode": "邮政编码",
+    "language": "首选语言",
+    "save": "保存更改",
+    "saved": "资料已保存！"
+  },
+  "expenses": {
+    "title": "开支追踪",
+    "amount": "金额（$）",
+    "category": "类别",
+    "description": "描述",
+    "date": "日期",
+    "add": "添加开支",
+    "delete": "删除",
+    "categories": {
+      "food": "餐饮",
+      "medical": "医疗",
+      "utilities": "水电费",
+      "transportation": "交通",
+      "entertainment": "娱乐",
+      "other": "其他"
+    }
+  },
+  "investments": {
+    "title": "投资追踪",
+    "type": "投资类型",
+    "institution": "机构",
+    "amount": "价值（$）",
+    "notes": "备注",
+    "asOfDate": "截至日期",
+    "add": "添加投资",
+    "delete": "删除"
+  },
+  "activities": {
+    "title": "社区活动",
+    "all": "全部类别",
+    "noEvents": "暂无即将到来的活动。",
+    "add": "添加活动",
+    "location": "地点",
+    "date": "日期与时间"
+  },
+  "reports": {
+    "title": "开支报告",
+    "from": "从",
+    "to": "到",
+    "filter": "筛选",
+    "category": "类别",
+    "total": "合计",
+    "month": "月份",
+    "noData": "所选时间段内未找到开支数据。"
+  },
+  "calendar": {
+    "title": "活动日历",
+    "subtitle": "浏览即将举行的社区活动和重要日期",
+    "upcoming": "即将到来的活动",
+    "noEvents": "当天没有活动。",
+    "noUpcoming": "暂无即将到来的活动。",
+    "activityLegend": "社区活动",
+    "eventLegend": "重要日期"
+  },
+  "health": {
+    "title": "健康资源",
+    "subtitle": "为老年人提供重要的健康信息和资源"
+  },
+  "finance": {
+    "title": "财务与退休",
+    "subtitle": "为老年人提供理财规划、社会保障和退休资源"
+  },
+  "technology": {
+    "title": "老年人科技指南",
+    "subtitle": "帮助您保持联系并安全上网的指南、技巧和工具"
+  },
+  "learning": {
+    "title": "学习与教育",
+    "subtitle": "为老年人提供在线课程、图书馆和终身学习资源"
+  },
+  "travel": {
+    "title": "老年旅游",
+    "subtitle": "为老年人设计的旅游提示、优惠和资源"
+  },
+  "admin": {
+    "title": "用户管理",
+    "email": "电子邮件",
+    "name": "姓名",
+    "role": "角色",
+    "joined": "注册日期",
+    "age": "年龄"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出现错误，请重试。",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭"
+  }
+}

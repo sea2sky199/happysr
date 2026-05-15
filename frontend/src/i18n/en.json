@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Home",
+    "health": "Health",
+    "activities": "Activities",
+    "expenses": "Expenses",
+    "investments": "Investments",
+    "travel": "Travel",
+    "calendar": "Calendar",
+    "finance": "Finance",
+    "technology": "Technology",
+    "learning": "Learning",
+    "reports": "Reports",
+    "dashboard": "My Dashboard",
+    "admin": "Admin",
+    "login": "Sign In",
+    "logout": "Sign Out",
+    "register": "Register",
+    "more": "More"
+  },
+  "home": {
+    "welcome": "Welcome to HappySR",
+    "subtitle": "Your complete senior resource center",
+    "latestNews": "Latest News & Announcements",
+    "upcomingEvents": "Upcoming Events"
+  },
+  "auth": {
+    "email": "Email Address",
+    "password": "Password",
+    "name": "Full Name",
+    "loginTitle": "Sign In to Your Account",
+    "registerTitle": "Create Your Account",
+    "loginBtn": "Sign In",
+    "registerBtn": "Create Account",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?"
+  },
+  "profile": {
+    "title": "My Profile",
+    "name": "Full Name",
+    "gender": "Gender",
+    "age": "Age",
+    "zipcode": "Zip Code",
+    "language": "Preferred Language",
+    "save": "Save Changes",
+    "saved": "Profile saved!"
+  },
+  "expenses": {
+    "title": "Expense Tracker",
+    "amount": "Amount ($)",
+    "category": "Category",
+    "description": "Description",
+    "date": "Date",
+    "add": "Add Expense",
+    "delete": "Delete",
+    "categories": {
+      "food": "Food & Dining",
+      "medical": "Medical",
+      "utilities": "Utilities",
+      "transportation": "Transportation",
+      "entertainment": "Entertainment",
+      "other": "Other"
+    }
+  },
+  "investments": {
+    "title": "Investment Tracker",
+    "type": "Investment Type",
+    "institution": "Institution",
+    "amount": "Value ($)",
+    "notes": "Notes",
+    "asOfDate": "As of Date",
+    "add": "Add Investment",
+    "delete": "Delete"
+  },
+  "activities": {
+    "title": "Community Activities",
+    "all": "All Categories",
+    "noEvents": "No upcoming activities found.",
+    "add": "Add Activity",
+    "location": "Location",
+    "date": "Date & Time"
+  },
+  "reports": {
+    "title": "Expense Reports",
+    "from": "From",
+    "to": "To",
+    "filter": "Filter",
+    "category": "Category",
+    "total": "Total",
+    "month": "Month",
+    "noData": "No expense data found for the selected period."
+  },
+  "calendar": {
+    "title": "Events Calendar",
+    "subtitle": "Browse upcoming community events and important dates",
+    "upcoming": "Upcoming Events",
+    "noEvents": "No events on this day.",
+    "noUpcoming": "No upcoming events.",
+    "activityLegend": "Community Activity",
+    "eventLegend": "Important Date"
+  },
+  "health": {
+    "title": "Health Resources",
+    "subtitle": "Important health information and resources for seniors"
+  },
+  "finance": {
+    "title": "Finance & Retirement",
+    "subtitle": "Financial planning, Social Security, and retirement resources for seniors"
+  },
+  "technology": {
+    "title": "Technology for Seniors",
+    "subtitle": "Guides, tips, and tools to help you stay connected and safe online"
+  },
+  "learning": {
+    "title": "Learning & Education",
+    "subtitle": "Online courses, libraries, and lifelong learning resources for seniors"
+  },
+  "travel": {
+    "title": "Senior Travel",
+    "subtitle": "Travel tips, deals, and resources designed for seniors"
+  },
+  "admin": {
+    "title": "User Management",
+    "email": "Email",
+    "name": "Name",
+    "role": "Role",
+    "joined": "Joined",
+    "age": "Age"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again.",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close"
+  }
+}

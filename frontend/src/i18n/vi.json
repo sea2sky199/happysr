@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "health": "Sức khỏe",
+    "activities": "Hoạt động",
+    "expenses": "Chi tiêu",
+    "investments": "Đầu tư",
+    "travel": "Du lịch",
+    "calendar": "Lịch",
+    "finance": "Tài chính",
+    "technology": "Công nghệ",
+    "learning": "Học tập",
+    "reports": "Báo cáo",
+    "dashboard": "Trang của tôi",
+    "admin": "Quản trị",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "register": "Đăng ký",
+    "more": "More"
+  },
+  "home": {
+    "welcome": "Chào mừng đến HappySR",
+    "subtitle": "Trung tâm tài nguyên toàn diện dành cho người cao tuổi",
+    "latestNews": "Tin tức & Thông báo mới nhất",
+    "upcomingEvents": "Sự kiện sắp tới"
+  },
+  "auth": {
+    "email": "Địa chỉ email",
+    "password": "Mật khẩu",
+    "name": "Họ và tên",
+    "loginTitle": "Đăng nhập vào tài khoản",
+    "registerTitle": "Tạo tài khoản",
+    "loginBtn": "Đăng nhập",
+    "registerBtn": "Tạo tài khoản",
+    "noAccount": "Chưa có tài khoản?",
+    "haveAccount": "Đã có tài khoản?"
+  },
+  "profile": {
+    "title": "Hồ sơ của tôi",
+    "name": "Họ và tên",
+    "gender": "Giới tính",
+    "age": "Tuổi",
+    "zipcode": "Mã bưu chính",
+    "language": "Ngôn ngữ ưa thích",
+    "save": "Lưu thay đổi",
+    "saved": "Đã lưu hồ sơ!"
+  },
+  "expenses": {
+    "title": "Theo dõi chi tiêu",
+    "amount": "Số tiền ($)",
+    "category": "Danh mục",
+    "description": "Mô tả",
+    "date": "Ngày",
+    "add": "Thêm chi tiêu",
+    "delete": "Xóa",
+    "categories": {
+      "food": "Ăn uống",
+      "medical": "Y tế",
+      "utilities": "Tiện ích",
+      "transportation": "Đi lại",
+      "entertainment": "Giải trí",
+      "other": "Khác"
+    }
+  },
+  "investments": {
+    "title": "Theo dõi đầu tư",
+    "type": "Loại đầu tư",
+    "institution": "Tổ chức",
+    "amount": "Giá trị ($)",
+    "notes": "Ghi chú",
+    "asOfDate": "Tính đến ngày",
+    "add": "Thêm đầu tư",
+    "delete": "Xóa"
+  },
+  "activities": {
+    "title": "Hoạt động cộng đồng",
+    "all": "Tất cả danh mục",
+    "noEvents": "Không có hoạt động sắp tới.",
+    "add": "Thêm hoạt động",
+    "location": "Địa điểm",
+    "date": "Ngày & Giờ"
+  },
+  "reports": {
+    "title": "Báo cáo chi tiêu",
+    "from": "Từ",
+    "to": "Đến",
+    "filter": "Lọc",
+    "category": "Danh mục",
+    "total": "Tổng cộng",
+    "month": "Tháng",
+    "noData": "Không tìm thấy dữ liệu chi tiêu cho khoảng thời gian đã chọn."
+  },
+  "calendar": {
+    "title": "Lịch Sự Kiện",
+    "subtitle": "Xem các sự kiện cộng đồng sắp tới và các ngày quan trọng",
+    "upcoming": "Sự Kiện Sắp Tới",
+    "noEvents": "Không có sự kiện nào trong ngày này.",
+    "noUpcoming": "Không có sự kiện sắp tới.",
+    "activityLegend": "Hoạt Động Cộng Đồng",
+    "eventLegend": "Ngày Quan Trọng"
+  },
+  "health": {
+    "title": "Tài nguyên sức khỏe",
+    "subtitle": "Thông tin và tài nguyên sức khỏe quan trọng dành cho người cao tuổi"
+  },
+  "finance": {
+    "title": "Tài chính & Hưu trí",
+    "subtitle": "Lập kế hoạch tài chính, An sinh xã hội và tài nguyên hưu trí cho người cao tuổi"
+  },
+  "technology": {
+    "title": "Công nghệ cho người cao tuổi",
+    "subtitle": "Hướng dẫn, mẹo và công cụ giúp bạn kết nối và an toàn trực tuyến"
+  },
+  "learning": {
+    "title": "Học tập & Giáo dục",
+    "subtitle": "Khóa học trực tuyến, thư viện và tài nguyên học tập suốt đời cho người cao tuổi"
+  },
+  "travel": {
+    "title": "Du lịch cho người cao tuổi",
+    "subtitle": "Mẹo du lịch, ưu đãi và tài nguyên dành cho người cao tuổi"
+  },
+  "admin": {
+    "title": "Quản lý người dùng",
+    "email": "Email",
+    "name": "Họ tên",
+    "role": "Vai trò",
+    "joined": "Ngày tham gia",
+    "age": "Tuổi"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Có lỗi xảy ra. Vui lòng thử lại.",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "close": "Đóng"
+  }
+}
