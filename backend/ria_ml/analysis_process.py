@@ -1,3 +1,4 @@
+import sys
 import matplotlib.pyplot as plt
 from analPlotSurvivalProbabilities import analPlotSurvivalProbabilities
 from analPlotScenarios import analPlotScenarios
@@ -94,7 +95,8 @@ def _processFigure(analysis):
         plt.pause(analysis['figureDelay'])
     else:
         plt.show(block=False)
-        input('Press Enter to continue...')
+        if sys.stdin.isatty():
+            input('Press Enter to continue...')
     return analysis
 
 
