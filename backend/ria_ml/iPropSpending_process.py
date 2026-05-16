@@ -43,7 +43,7 @@ def iPropSpending_process(iPropSpending, client, market):
         plt.plot(path[1, :], path[0, :], '*b', linewidth=4)
         plt.plot(xs, ys, '-r', linewidth=2)
         plt.legend(['Input', 'All'])
-        plt.axis([0, nyrs + 1, 0, 1])
+        plt.axis([0, nyrs + 1, -0.05, 1.05])
         plt.title('Glide Path: Market Proportions by Year', color='b')
         plt.grid(True)
         plt.show()
