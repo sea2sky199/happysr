@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
 
 def analPlotIncomeMaps(analysis, client, market, plottype, states):
     plottype = plottype.lower()
@@ -30,6 +31,9 @@ def analPlotIncomeMaps(analysis, client, market, plottype, states):
     incomes = incomes[:, :lastyear]
     cells = cells[:, :lastyear]
 
+    # Mark excluded cells below the minimum so they render as white
+    incomes[cells <= 0] = mininc - 1
+
     if 'c' in plottype:
         condincs = []
         for yr in range(incomes.shape[1]):
@@ -48,12 +52,27 @@ def analPlotIncomeMaps(analysis, client, market, plottype, states):
     maxinc = prop * np.max(incomes[:, :lastyear])
     incomes[:, :lastyear] = np.minimum(maxinc, incomes[:, :lastyear])
 
-    sorted_inc = np.sort(incomes[:, :lastyear], axis=0)[::-1, :]
+    # Sort ascending: smallest income at top = highest exceedance probability at top
+    sorted_inc = np.sort(incomes[:, :lastyear], axis=0)
+
+    # Colormap with white as first entry so excluded cells (mininc-1) appear white
+    base_colors = plt.cm.viridis(np.linspace(0, 1, 256))
+    base_colors[0] = [1, 1, 1, 1]
+    custom_cmap = mcolors.ListedColormap(base_colors)
 
     ax = plt.gca()
-    im = ax.imshow(sorted_inc, aspect='auto', cmap='viridis')
+    im = ax.imshow(sorted_inc, aspect='auto', cmap=custom_cmap)
     plt.colorbar(im, ax=ax)
     ax.grid(True)
+
+    # Set y-axis tick labels to probabilities matching MATLAB:
+    # set(gca,'YtickLabel',[.9 .8 .7 .6 .5 .4 .3 .2 .1 0])
+    nrows = sorted_inc.shape[0]
+    tick_pos = np.linspace(0, nrows - 1, 10).astype(int)
+    tick_labels = [f'{v:.1f}' for v in np.linspace(0.9, 0.0, 10)]
+    ax.set_yticks(tick_pos)
+    ax.set_yticklabels(tick_labels)
+
     ax.set_xlabel('Year', fontsize=12)
     ax.set_ylabel('Probability of Exceeding ' + rntext2 + 'Income', fontsize=12)
     ttl = f'{rntext1} Probabilities of Exceeding {rntext2}Income in {statestext}'
